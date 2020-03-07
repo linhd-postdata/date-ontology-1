@@ -1,0 +1,307 @@
+<http://postdata.linhd.uned.es/ontology/postdata-dates#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#> <http://creativecommons.org/ns#license> "https://creativecommons.org/licenses/by/4.0/" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#> <http://purl.org/dc/elements/1.1/contributors> "Alvaro Pérez (LINHD_POSTDATA-UNED)  \nhttps://www.linkedin.com/in/álvaro-pérez-pozo-ab241154/" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#> <http://purl.org/dc/elements/1.1/contributors> "Bruno Sartini (Bolonia University)\nhttps://orcid.org/0000-0002-9152-4402" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#> <http://purl.org/dc/elements/1.1/contributors> "Javier de la Rosa (LINHD_POSTDATA-UNED)\nhttps://www.linkedin.com/in/versae/" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#> <http://purl.org/dc/elements/1.1/contributors> "Oscar Corcho (Universidad Politécnica de Madrid)\nhttp://orcid.org/0000-0002-9260-0753" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#> <http://purl.org/dc/elements/1.1/creator> "Helena Bermúdez Sabel \nhttps://orcid.org/0000-0001-7782-206X" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#> <http://purl.org/dc/elements/1.1/creator> "Mª Luisa Díez Platas \nhttps://orcid.org/0000-0002-9416-3147" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#> <http://purl.org/dc/elements/1.1/date> "2020-02-22" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#> <http://purl.org/dc/elements/1.1/description> "This ontology contains classes and properties that can be used for dating the poetic opus and its manifestations, considering the variety of date expressions that can be found in this context"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#> <http://purl.org/dc/elements/1.1/title> "postdata-dates ontology"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#> <http://purl.org/dc/terms/publisher> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”\n        Principal Investigator. Elena González Blanco -- <https://orcid.org/0000-0002-0448-1812>\n        Technical Director. Salvador Ros Muñoz -- <https://orcid.org/0000-0001-6330-4958>"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "pddates" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#> <http://www.w3.org/2002/07/owl#versionInfo> "V1.1" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/contributors
+<http://purl.org/dc/elements/1.1/contributors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/image
+<http://schema.org/image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-core#certainty
+<http://postdata.linhd.uned.es/ontology/postdata-core#certainty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-dates#isExpressedAs
+<http://postdata.linhd.uned.es/ontology/postdata-dates#isExpressedAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#isExpressedAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#isExpressedAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-dates#DateExpression> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#isExpressedAs> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the form of expression of a Date Entity"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#isExpressedAs> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-dates" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#isExpressedAs> <http://www.w3.org/2000/01/rdf-schema#label> "is Expressed As"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpression
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpression> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-dates#DateExpression> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpression> <http://www.w3.org/2000/01/rdf-schema#comment> "Value of the date expression, without specifying the specific datatype that is used for its representation"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpression> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-dates> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpression> <http://www.w3.org/2000/01/rdf-schema#label> "date Expression"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsDate
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpression> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-dates#ExactDateExpression> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Value of the date expression, represented as an XML Schema date datatype"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-dates> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsDate> <http://www.w3.org/2000/01/rdf-schema#label> "date Expression as Date"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsText
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsText> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpression> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsText> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-dates#ApproximateDateExpression> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsText> <http://www.w3.org/2000/01/rdf-schema#comment> "Value of the date expression, represented as an XML Schema string datatype"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsText> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-dates> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsText> <http://www.w3.org/2000/01/rdf-schema#label> "date Expression as Text"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-dates#dateNote
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateNote> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateNote> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateNote> <http://www.w3.org/2000/01/rdf-schema#comment> "Notes and comments in relation to a stated date"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateNote> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-dates" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#dateNote> <http://www.w3.org/2000/01/rdf-schema#label> "date Note"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-dates#notAfter
+<http://postdata.linhd.uned.es/ontology/postdata-dates#notAfter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#notAfter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-dates#OpenIntervalExpression> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#notAfter> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#notAfter> <http://www.w3.org/2000/01/rdf-schema#comment> "In uncertain dates, it specifies the latest possible date"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#notAfter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-dates" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#notAfter> <http://www.w3.org/2000/01/rdf-schema#label> "not After"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-dates#notBefore
+<http://postdata.linhd.uned.es/ontology/postdata-dates#notBefore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#notBefore> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-dates#OpenIntervalExpression> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#notBefore> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#notBefore> <http://www.w3.org/2000/01/rdf-schema#comment> "In uncertain dates, it specifies the earliest possible date"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#notBefore> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-dates" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#notBefore> <http://www.w3.org/2000/01/rdf-schema#label> "not Before"@en .
+# 
+# http://www.europeana.eu/schemas/edm/begin
+<http://www.europeana.eu/schemas/edm/begin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.europeana.eu/schemas/edm/begin> <http://www.w3.org/2000/01/rdf-schema#label> "Begin"@en .
+<http://www.europeana.eu/schemas/edm/begin> <http://www.w3.org/2004/02/skos/core#definition> "This property denotes the start date of a period of time."@en .
+# 
+# http://www.europeana.eu/schemas/edm/end
+<http://www.europeana.eu/schemas/edm/end> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.europeana.eu/schemas/edm/end> <http://www.w3.org/2000/01/rdf-schema#label> "End"@en .
+<http://www.europeana.eu/schemas/edm/end> <http://www.w3.org/2004/02/skos/core#definition> "This property denotes the end date of a period of time."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-dates#ApproximateDateExpression
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ApproximateDateExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ApproximateDateExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://postdata.linhd.uned.es/ontology/postdata-dates#DateExpression> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ApproximateDateExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsText> .
+_:genid1 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ApproximateDateExpression> <http://www.w3.org/2000/01/rdf-schema#comment> "Aproximate date expressed in any format. This may also include text in natural language"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ApproximateDateExpression> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-dates" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ApproximateDateExpression> <http://www.w3.org/2000/01/rdf-schema#label> "Approximate Date Expression"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-dates#ClosedIntervalExpression
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ClosedIntervalExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ClosedIntervalExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://postdata.linhd.uned.es/ontology/postdata-dates#IntervalExpression> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ClosedIntervalExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.europeana.eu/schemas/edm/begin> .
+_:genid2 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#date> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ClosedIntervalExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.europeana.eu/schemas/edm/end> .
+_:genid3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#date> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ClosedIntervalExpression> <http://www.w3.org/2000/01/rdf-schema#comment> "An expression that represents a date range that is specified with exact dates for the beginning and end"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ClosedIntervalExpression> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-dates" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ClosedIntervalExpression> <http://www.w3.org/2000/01/rdf-schema#label> "Closed Interval Expression"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity
+<http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-dates#isExpressedAs> .
+_:genid4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://postdata.linhd.uned.es/ontology/postdata-dates#DateExpression> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-dates#dateNote> .
+_:genid5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "The temporal entity associated to an opus, manifestation, event, etc."@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-dates" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity> <http://www.w3.org/2000/01/rdf-schema#label> "Date Entity"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-dates#DateExpression
+<http://postdata.linhd.uned.es/ontology/postdata-dates#DateExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#DateExpression> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid6 <http://www.w3.org/2002/07/owl#unionOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-dates#ApproximateDateExpression> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-dates#ExactDateExpression> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-dates#IntervalExpression> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#DateExpression> <http://www.w3.org/2000/01/rdf-schema#comment> "Format or expression mode used to represent the date related with the creation (or any other event) of an entity"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#DateExpression> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-dates" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#DateExpression> <http://www.w3.org/2000/01/rdf-schema#label> "Date Expression"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-dates#ExactDateExpression
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ExactDateExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ExactDateExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://postdata.linhd.uned.es/ontology/postdata-dates#DateExpression> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ExactDateExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsDate> .
+_:genid10 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#date> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ExactDateExpression> <http://www.w3.org/2000/01/rdf-schema#comment> "Exact date expressed in any format. This may also include text in natural language"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ExactDateExpression> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-dates" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#ExactDateExpression> <http://www.w3.org/2000/01/rdf-schema#label> "Exact Date Expression"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-dates#IntervalExpression
+<http://postdata.linhd.uned.es/ontology/postdata-dates#IntervalExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#IntervalExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://postdata.linhd.uned.es/ontology/postdata-dates#DateExpression> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#IntervalExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.europeana.eu/schemas/edm/TimeSpan> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#IntervalExpression> <http://www.w3.org/2000/01/rdf-schema#comment> "A date expression that represents a date range (aka time span or time interval). It may be open or closed, depending on whether the beginning and/or end dates are specified with exactitude or not"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#IntervalExpression> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-dates" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#IntervalExpression> <http://www.w3.org/2000/01/rdf-schema#label> "Interval Expression"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-dates#OpenIntervalExpression
+<http://postdata.linhd.uned.es/ontology/postdata-dates#OpenIntervalExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#OpenIntervalExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://postdata.linhd.uned.es/ontology/postdata-dates#IntervalExpression> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#OpenIntervalExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-dates#notAfter> .
+_:genid11 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#date> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#OpenIntervalExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-dates#notBefore> .
+_:genid12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#date> .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#OpenIntervalExpression> <http://www.w3.org/2000/01/rdf-schema#comment> "An expression that represents a date range without precise specifications of the beginning or end"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#OpenIntervalExpression> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-dates" .
+<http://postdata.linhd.uned.es/ontology/postdata-dates#OpenIntervalExpression> <http://www.w3.org/2000/01/rdf-schema#label> "Open Interval Expression"@en .
+# 
+# http://www.europeana.eu/schemas/edm/TimeSpan
+<http://www.europeana.eu/schemas/edm/TimeSpan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.europeana.eu/schemas/edm/TimeSpan> <http://www.w3.org/2000/01/rdf-schema#label> "Time Span"@en .
+<http://www.europeana.eu/schemas/edm/TimeSpan> <http://www.w3.org/2004/02/skos/core#definition> "The class of \"abstract temporal extents, in the sense of Galilean physics,\n having a beginning, an end and a duration\" (CIDOC CRM)"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://postdata.linhd.uned.es/kos/certainty
+<http://postdata.linhd.uned.es/kos/certainty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/certainty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid13 <http://www.w3.org/2002/07/owl#members> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-dates#ApproximateDateExpression> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-dates#ExactDateExpression> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-dates#IntervalExpression> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
