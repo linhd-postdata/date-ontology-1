@@ -1,0 +1,12 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "pddates:ClosedIntervalExpression" "pddates:IntervalExpression" "pddates:ExactDateExpression" "pddates:OpenIntervalExpression" "edm:TimeSpan" "pddates:DateExpression" "pddates:ApproximateDateExpression" ; /*classes style*/
+	"pddates:ClosedIntervalExpression" -> "pddates:IntervalExpression" [ label = "rdfs:subClassOf" ];
+	"pddates:IntervalExpression" -> "edm:TimeSpan" [ label = "rdfs:subClassOf" ];
+	"pddates:IntervalExpression" -> "pddates:DateExpression" [ label = "rdfs:subClassOf" ];
+	"pddates:OpenIntervalExpression" -> "pddates:IntervalExpression" [ label = "rdfs:subClassOf" ];
+	"pddates:ExactDateExpression" -> "pddates:DateExpression" [ label = "rdfs:subClassOf" ];
+	"pddates:ApproximateDateExpression" -> "pddates:DateExpression" [ label = "rdfs:subClassOf" ];
+
+}
