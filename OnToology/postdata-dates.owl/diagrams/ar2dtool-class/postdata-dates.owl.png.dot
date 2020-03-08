@@ -1,0 +1,39 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "34ce302c:170b745c2fc:-7ff7" "pddates:IntervalExpression" "pddates:ExactDateExpression" "pddates:OpenIntervalExpression" "pddates:DateExpression" "pddates:DateEntity" "pddates:ApproximateDateExpression" ; /*classes style*/
+	"pddates:DateExpression" -> "34ce302c:170b745c2fc:-7ff7" [ label = "owl:equivalentClass" ];
+	"pddates:dateExpressionAsDate" -> "pddates:dateExpression" [ label = "rdfs:subPropertyOf" ];
+	"pddates:dateExpressionAsText" -> "pddates:dateExpression" [ label = "rdfs:subPropertyOf" ];
+	"NULL" -> "pddates:ApproximateDateExpression" [ label = "rdf:first" ];
+	"NULL" -> "pddates:IntervalExpression" [ label = "rdf:first" ];
+	"NULL" -> "34ce302c:170b745c2fc:-7ff6" [ label = "owl:unionOf" ];
+	"NULL" -> "34ce302c:170b745c2fc:-7fee" [ label = "rdf:rest" ];
+	"NULL" -> "xsd:date" [ label = "owl:onDataRange" ];
+	"NULL" -> "34ce302c:170b745c2fc:-7fef" [ label = "owl:members" ];
+	"NULL" -> "edm:begin" [ label = "owl:onProperty" ];
+	"NULL" -> "34ce302c:170b745c2fc:-7fed" [ label = "rdf:rest" ];
+	"NULL" -> "edm:end" [ label = "owl:onProperty" ];
+	"NULL" -> "pddates:dateExpressionAsText" [ label = "owl:onProperty" ];
+	"NULL" -> "pddates:dateExpressionAsDate" [ label = "owl:onProperty" ];
+	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
+	"NULL" -> "xsd:string" [ label = "owl:onDataRange" ];
+	"NULL" -> "34ce302c:170b745c2fc:-7ff5" [ label = "rdf:rest" ];
+	"NULL" -> "pddates:notAfter" [ label = "owl:onProperty" ];
+	"NULL" -> "pddates:ExactDateExpression" [ label = "rdf:first" ];
+	"NULL" -> "pddates:isExpressedAs" [ label = "owl:onProperty" ];
+	"NULL" -> "pddates:DateExpression" [ label = "owl:allValuesFrom" ];
+	"NULL" -> "pddates:notBefore" [ label = "owl:onProperty" ];
+	"NULL" -> "xsd:string" [ label = "owl:allValuesFrom" ];
+	"NULL" -> "34ce302c:170b745c2fc:-7ff4" [ label = "rdf:rest" ];
+	"NULL" -> "pddates:dateNote" [ label = "owl:onProperty" ];
+	"NULL" -> "xsd:date" [ label = "owl:allValuesFrom" ];
+	"pddates:OpenIntervalExpression" -> "xsd:date" [ label = "pddates:notAfter" ];
+	"pddates:ExactDateExpression" -> "xsd:date" [ label = "pddates:dateExpressionAsDate" ];
+	"pddates:OpenIntervalExpression" -> "xsd:date" [ label = "pddates:notBefore" ];
+	"pddates:ApproximateDateExpression" -> "xsd:string" [ label = "pddates:dateExpressionAsText" ];
+	"pddates:DateEntity" -> "pddates:DateExpression" [ label = "pddates:isExpressedAs" ];
+	"pddates:DateEntity" -> "xsd:string" [ label = "pddates:dateNote" ];
+	"pddates:DateExpression" -> "owl:Thing" [ label = "pddates:dateExpression" ];
+
+}

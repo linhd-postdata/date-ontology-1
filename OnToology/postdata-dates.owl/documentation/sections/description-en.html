@@ -1,0 +1,44 @@
+<html>
+<h2 id="desc" class="list">POSTDATA _Dates ontology: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+
+
+<p>The dating of the works and their manifestations in the domain of poetry and in the literary domain, in general, presents some characteristics, especially in date expression.<br/>
+In these domains the difficulty of dating the works following established formats must be taken into consideration.
+Many times dates can not be determined and are compromised by a lack of accuracy which also requires additional information elements to point at some of the issues related to the dating.</p>
+
+<p>We propose the creation of a small ontology of dates in which the forms of representation of the dates are expressed in the poetic and literary context. It also provides the possibility of incorporating additional information that enrich the meaning of the expressions used for the dates, which includes both precise timestamps and  approximate time intervals ((for example ussing <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-dates/documentation/index-en.html#/property#notAfter"> notAfter </a> and <a href="http://postdata.linhd.uned.es/ontology/POSTDATA-dates/documentation/index-en.html#/property#notBefore">notBefore </a> properties).</p></span>
+<p>To treat these cases, the following characteristics are incorporated: 
+	<ol><li> Different ways of expressing dating (<a href = "http://postdata.linhd.uned.es/ontology/POSTDATA-dates/documentation/index-en.html #http: //postdata.linhd.uned.es/ontology/postdata-dates#DateExpression"> pddate: DataExpression </a> which is the superclass of <a href = "http://postdata.linhd.uned.es/ontology/POSTDATA-dates/documentation/index-en.html #http: //postdata.linhd.uned.es/ontology/postdata-dates#ApproximateDateExpression">pddate: ApproximateDateExpression</a>,  <a href = "http://postdata.linhd.uned.es/ontology/POSTDATA-dates/documentation/index-en.html #http: //postdata.linhd.uned.es/ontology/postdata-dates#ExactDateExpression ">pddate: ExactDateExpression </a> and <a href = "http://postdata.linhd.uned.es/ontology/POSTDATA-dates/documentation/index-en.html #http: //postdata.linhd.uned.es/ontology/postdata-dates#IntervalExpression ">pddate: IntervalExpression</a>.</li>
+<li>The possibility of establishing the degree of certainty</li>
+<li>The possibility of incorporating explanatory notes about the indicated date.</li></ol>
+
+
+As mentioned above, the dating of the works and their manifestations in the domain of poetry and in the literary domain, in general, presents some characteristics, especially in date expression. In these domains the difficulty of dating the works following established formats must be taken into consideration. Many times dates can not be determined and are compromised by a lack of accuracy which also requires additional information elements to point at some of the issues related to the dating.
+
+We propose the creation of a small ontology of dates in which the forms of representation of the dates are expressed in the poetic and literary context.
+Each work, each primary source, bibliographic source or its manifestations with data on the date will have a DateEntity associated.
+this DateEntity has dateNote data properties that possibility he possibility of establishing the degree of certainty
+The possibility of incorporating explanatory notes about the indicated date.
+
+The dateEnti also has a object property to express the date in several formats.
+
+Approximate Date, which includes a sentence in natural language to express ann approximate date  for example, "17th early approximate", 
+precise datestamps, for example, "1970" and  time intervals, closed (from:1670 to:1673 or opened (not before:1670 notAfter:1673)  and indicate its level of certainty.that enrich the meaning of the expressions used for the dates, which includes both precise timestamps and approximate time intervals ((for example ussing notAfter and notBefore properties).
+</p>
+ <h3 id="classes-headline" class="list">Examples</h3>
+ <p> 
+
+The code shown below showsan example of not exact date with a degree of certainty
+</p>
+
+<div style="border:1px solid #ffffff">
+	
+<img src="http://postdata.linhd.uned.es/ontology/ejemplofechas.png" width="1000px" />
+</div><br/><br/>
+
+<div style="border:1px solid #ffffff">
+	
+<img src="http://postdata.linhd.uned.es/ontology/fechasgraph.png" width="100%" />
+</div>
+</html>

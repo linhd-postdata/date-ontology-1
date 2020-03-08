@@ -1,0 +1,117 @@
+{
+  "@context" : {
+    "notAfter" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#notAfter",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "begin" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/begin"
+    },
+    "DateExpression" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#DateExpression"
+    },
+    "ExactDateExpression" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#ExactDateExpression"
+    },
+    "license" : {
+      "@id" : "http://creativecommons.org/ns#license"
+    },
+    "dateExpressionAsDate" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image"
+    },
+    "dateExpressionAsText" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpressionAsText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "dateNote" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#dateNote",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "DateEntity" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#DateEntity"
+    },
+    "TimeSpan" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/TimeSpan"
+    },
+    "isExpressedAs" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#isExpressedAs",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "ClosedIntervalExpression" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#ClosedIntervalExpression"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "ApproximateDateExpression" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#ApproximateDateExpression"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "ConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "IntervalExpression" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#IntervalExpression"
+    },
+    "notBefore" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#notBefore",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher"
+    },
+    "dateExpression" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#dateExpression"
+    },
+    "certainty" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#certainty",
+      "@type" : "@id"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "OpenIntervalExpression" : {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-dates#OpenIntervalExpression"
+    },
+    "contributors" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributors"
+    },
+    "end" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/end"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    }
+  }
+}
